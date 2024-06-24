@@ -2,7 +2,7 @@ package piscine
 
 import "ft"
 
-func Printdigits() {
+func PrintDigits() {
 	for i := '0'; i <= '9'; i++ {
 		ft.PrintRune(i)
 	}
