@@ -1,6 +1,6 @@
 package piscine
 
-func BasicAtoi(s string) int {
+func BasicAtoi2(s string) int {
 	var result int
 	for _, c := range s {
 		if c < '0' || c > '9' {
@@ -10,5 +10,3 @@ func BasicAtoi(s string) int {
 	}
 	return result
 }
-
-// They will only contain one or several digits as characters.
