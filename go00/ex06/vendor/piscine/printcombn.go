@@ -1,9 +1,6 @@
 package piscine
 
-import (
-	"ft"
-)
-
+import "ft"
 
 func PrintCombN(nb int) {
 	if nb < 1 || nb > 9 {
